@@ -703,6 +703,8 @@ Cml)
 
        CALL DIAGNOSTICS_FILL(totPhihyd,'PHIHYD  ',0,Nr,0,1,1,myThid)
        CALL DIAGNOSTICS_FILL(phiHydLow,'PHIBOT  ',0, 1,0,1,1,myThid)
+       CALL DIAGNOSTICS_FILL(phiTide2d,'phiTid2d',0, 1,0,1,1,myThid)
+
 #ifdef ALLOW_ECCO
        CALL DIAGNOSTICS_SCALE_FILL(m_bp,recip_gravity,1,
      &                             'OBPGMAP ',0, 1,0,1,1,myThid)

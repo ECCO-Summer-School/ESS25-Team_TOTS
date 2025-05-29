@@ -86,3 +86,8 @@ if [ "x$NETCDF" != x ] ; then
     #INCLUDEDIRS="$INCLUDEDIRS ${NETCDF}/include"
     LIBS="$LIBS -L${NETCDF}/lib"
 fi
+
+    LIBS="$LIBS -L/nobackupp27/hvanderz/ECCO_tides/MITgcm/ECCOV4/release5_ToTs/lib"
+    LIBS="$LIBS -lspice"
+
+

@@ -480,76 +480,90 @@ filename(150) = 'diags/UShIDrag_mon_mean/UShIDrag_mon_mean',
 frequency(151) = 2635200.0,
 fields(1,151) = 'VShIDrag',
 filename(151) = 'diags/VShIDrag_mon_mean/VShIDrag_mon_mean',
+#---
+#frequency(152) = -3600.0,
+#fields(1,152) = 'ETAN',
+#filename(152) = 'diags/ETAN_hourly/ETAN_hourly',
+#timephase(152) = 0.0, 
+#---
+#frequency(153) = -3600.0,
+#fields(1,153) = 'UVEL',
+#filename(153) = 'diags/UVEL_hourly/UVEL_hourly',
+#timephase(153) = 0.0,
+#---
+#frequency(154) = -3600.0,
+#fields(1,154) = 'VVEL',
+#filename(154) = 'diags/VVEL_hourly/VVEL_hourly',
+#timephase(154) = 0.0,
+#---
+#frequency(155) = -3600.0,
+#fields(1,155) = 'UBotDrag',
+#filename(155) = 'diags/UBotDrag_hourly/UBotDrag_hourly',
+#timephase(155) = 0.0,
+#---
+#frequency(156) = -3600.0,
+#fields(1,156) = 'VBotDrag',
+#filename(156) = 'diags/VBotDrag_hourly/VBotDrag_hourly',
+#timephase(156) = 0.0,
+#---
+#frequency(157) = -3600.0,
+#fields(1,157) = 'Um_Diss',
+#filename(157) = 'diags/Um_Diss_hourly/Um_Diss_hourly',
+#timephase(157) = 0.0,
+#---
+#frequency(158) = -3600.0,
+#fields(1,158) = 'Vm_Diss',
+#filename(158) = 'diags/Vm_Diss_hourly/Vm_Diss_hourly',
+#timephase(158) = 0.0,
+#---
+#frequency(159) = -3600.0,
+#fields(1,159) = 'Um_ImplD',
+#filename(159) = 'diags/Um_ImplD_hourly/Um_ImplD_hourly',
+#timephase(159) = 0.0,
+#---
+#frequency(160) = -3600.0,
+#fields(1,160) = 'Vm_ImplD',
+#filename(160) = 'diags/Vm_ImplD_hourly/Vm_ImplD_hourly',
+#timephase(160) = 0.0,
+#---
+#frequency(161) = -3600.0,
+#fields(1,161) = 'WVEL',
+#filename(161) = 'diags/WVEL_hourly/WVEL_hourly',
+#timephase(161) = 0.0,
+#---
+#frequency(162) = 2635200.0,
+#fields(1,162) = 'GGL90ArU',
+#filename(162) = 'diags/GGL90ArU_mon_mean/GGL90ArU_mon_mean',
+#---
+#frequency(163) = 2635200.0,
+#fields(1,163) = 'GGL90ArV',
+#filename(163) = 'diags/GGL90ArV_mon_mean/GGL90ArV_mon_mean',
+#---
+#frequency(164) = 2635200.0,
+#fields(1,164) = 'GGL90Kr',
+#filename(164) = 'diags/GGL90Kr_mon_mean/GGL90Kr_mon_mean',
+#---
+#frequency(165) = 2635200.0,
+#fields(1,165) = 'GGL90TKE',
+#filename(165) = 'diags/GGL90TKE_mon_mean/GGL90TKE_mon_mean',
+#---
+frequency(166) = -3600.0,
+fields(1,166) = 'SALT',
+filename(166) = 'diags/SALT_hourly/SALT_hourly',
+timephase(166) = 0.0,
+#---
+frequency(167) = -3600,
+fields(1,167) = 'MXLDEPTH',
+filename(167) = 'diags/MXLDEPTH_hourly/MXLDEPTH_hourly',
+timephase(167) = 0.0,
+#---
+frequency(168) = -3600,
+fields(1,168) = 'THETA',
+filename(168) = 'diags/THETA_hourly/THETA_hourly',
+timephase(168) = 0.0,
+#---
 
-#
-frequency(152) = 2635200.0,
-fields(1,152) = 'SIFao',
-filename(152) = 'diags/SIFao_mon_mean/SIFao_mon_mean',
-#
-frequency(153) = 2635200.0,
-fields(1,153) = 'SIFionet',
-filename(153) = 'diags/SIFionet_mon_mean/SIFionet_mon_mean',
-#
-frequency(154) = 2635200.0,
-fields(1,154) = 'SIFianet',
-filename(154) = 'diags/SIFianet_mon_mean/SIFianet_mon_mean',
-#
-frequency(155) = 2635200.0,
-fields(1,155) = 'SIFmi',
-filename(155) = 'diags/SIFmi_mon_mean/SIFmi_mon_mean',
-#
-frequency(156) = 2635200.0,
-fields(1,156) = 'SIFFlood',
-filename(156) = 'diags/SIFFlood_mon_mean/SIFFlood_mon_mean',
-#
-frequency(157) = 2635200.0,
-fields(1,157) = 'SIsnAccR',
-filename(157) = 'diags/SIsnAccR_mon_mean/SIsnAccR_mon_mean',
-#
-frequency(158) = 2635200.0,
-fields(1,158) = 'SIsnmltS',
-filename(158) = 'diags/SIsnmltS_mon_mean/SIsnmltS_mon_mean',
-#
-frequency(159) = 2635200.0,
-fields(1,159) = 'SIgamma',
-filename(159) = 'diags/SIgamma_mon_mean/SIgamma_mon_mean',
-#
-frequency(160) = 2635200.0,
-fields(1,160) = 'SIgmacnt',
-filename(160) = 'diags/SIgmacnt_mon_mean/SIgmacnt_mon_mean',
-#
-frequency(161) = 2635200.0,
-fields(1,161) = 'SHIfwFlx',
-filename(161) = 'diags/SHIfwFlx_mon_mean/SHIfwFlx_mon_mean',
-#
-frequency(162) = 2635200.0,
-fields(1,162) = 'SHIhtFlx',
-filename(162) = 'diags/SHIhtFlx_mon_mean/SHIhtFlx_mon_mean',
-#
-frequency(163) = 2635200.0,
-fields(1,163) = 'ICFfwFlx',
-filename(163) = 'diags/ICFfwFlx_mon_mean/ICFfwFlx_mon_mean',
-#
-frequency(164) = 2635200.0,
-fields(1,164) = 'ICFhtFlx',
-filename(164) = 'diags/ICFhtFlx_mon_mean/ICFhtFlx_mon_mean',
-#
-frequency(165) = 2635200.0,
-fields(1,165) = 'SHIICFfw',
-filename(165) = 'diags/SHIICFfw_mon_mean/SHIICFfw_mon_mean',
-#
-frequency(166) = 2635200.0,
-fields(1,166) = 'SHIICFht',
-filename(166) = 'diags/SHIICFht_mon_mean/SHIICFht_mon_mean',
-#---
-frequency(167) = 2635200.0,
-fields(1,167) = 'VISrI_Um',
-filename(167) = 'diags/VISrI_Um_mon_mean/VISrI_Um_mon_mean',
-#---
-frequency(168) = 2635200.0,
-fields(1,168) = 'VISrI_Vm',
-filename(168) = 'diags/VISrI_Vm_mon_mean/VISrI_Vm_mon_mean',
-#---
+
   /
 #
 #

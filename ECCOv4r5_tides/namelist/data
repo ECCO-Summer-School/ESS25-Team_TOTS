@@ -64,6 +64,8 @@
  writeBinaryPrec=32,
  selectAddFluid=1,
  debugLevel=1,
+ implicSurfPress = 0.55,
+ implicDiv2DFlow = 0.55,
  /
 
 # Elliptic solver parameters
@@ -74,17 +76,17 @@
 
 # Time stepping parameters
  &PARM03
- nIter0=1,
+ nIter0=87841,
 #2 lev2 for testing:
 #nTimeSteps=8,
 #3month
-#nTimeSteps=2160,
+nTimeSteps=672,
 #18month
 #nTimeSteps=13110,
 #2yr
 #nTimeSteps=17520,
-#4-yr from 2014 to 2017, inclusive
-#nTimeSteps=35051,
+#5yr
+#nTimeSteps=43920,
 #20y:
 #nTimeSteps=175295,
 #22y:
@@ -94,7 +96,7 @@
 #26yr 
 #nTimeSteps=227903,
 #28yr
- nTimeSteps=245423,
+# nTimeSteps=245423,
 #60 years
 #nTimeSteps=525985,
 #
@@ -103,10 +105,7 @@
 #when using the cd scheme:
 # epsAB_CD = 0.25,
 # tauCD=172800.0,
- deltaTmom   =3600.,
- deltaTtracer=3600.,
- deltaTfreesurf=3600.,
- deltaTClock =3600.,
+ deltaT   =1800.,
 #when using ab2:
 # abEps = 0.1,
 #when using ab3:
@@ -118,8 +117,8 @@
  chkptFreq   =31536000.0,
 # taveFreq    =31536000.0,
 # dumpFreq    =31536000.0,
-# monitorFreq = 7200.0,
- monitorFreq = 6307200.0,
+ monitorFreq = 7200.0,
+# monitorFreq = 6307200.0,
  dumpInitAndLast = .TRUE.,
  adjDumpFreq = 31536000.0,
 #adjDumpFreq = 604800.0,
