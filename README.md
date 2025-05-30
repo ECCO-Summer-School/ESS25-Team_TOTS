@@ -35,8 +35,6 @@ This project provided a practical opportunity to bridge theoretical knowledge in
 
 ### Collaborators
 
-List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
-
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
 | Hinne van der Zant | I want to get more experience on the ECCO codes, and how to run it | Setting up, running and analyzing ECCO output  | Team member |
@@ -47,7 +45,8 @@ List all participants on the project. Here is a good space to share your persona
 
 ### The problem
 
-Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
+In this project, we explore the technical challenge of integrating a tidal forcing package—originally designed for a high-resolution ocean model—into a coarser-resolution model: ECCO v4r5. ECCO currently lacks tidal components, which limits its ability to simulate certain ocean dynamics accurately.
+By adapting and evaluating tidal forcing in ECCO v4r5, we aim to assess whether the inclusion of tides improves or degrades the model's performance. This exploration is important in the broader context of ocean modeling, as more accurate tidal representations can enhance the realism of large-scale simulations used for climate research, sea level studies, and coastal applications. If successful, this work could contribute to improved parameterizations and more reliable ocean state estimates.
 
 ## Data and Methods
 
