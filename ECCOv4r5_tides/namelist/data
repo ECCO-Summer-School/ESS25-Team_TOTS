@@ -74,31 +74,31 @@
 #cg2dTargetResWunit=1.E-12,
  /
 
-# Time stepping parameters
+# Time stepping parameters, deltat is 1800s, so every time step is half an hour
  &PARM03
- nIter0=87841,
+ nIter0=1,
 #2 lev2 for testing:
 #nTimeSteps=8,
-#3month
+#2weeks
 nTimeSteps=672,
 #18month
-#nTimeSteps=13110,
+#nTimeSteps=26220,
 #2yr
-#nTimeSteps=17520,
+#nTimeSteps=35040,
 #5yr
-#nTimeSteps=43920,
+#nTimeSteps=87840,
 #20y:
-#nTimeSteps=175295,
+#nTimeSteps=350590,
 #22y:
-#nTimeSteps=192839,
+#nTimeSteps=385678,
 #24y:
-#nTimeSteps=210359,
+#nTimeSteps=420718,
 #26yr 
-#nTimeSteps=227903,
+#nTimeSteps=455758,
 #28yr
-# nTimeSteps=245423,
+#nTimeSteps=490798,
 #60 years
-#nTimeSteps=525985,
+#nTimeSteps=1051970,
 #
  forcing_In_AB=.FALSE.,
  momDissip_In_AB=.FALSE.,
