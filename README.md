@@ -25,7 +25,13 @@ This template provides the following suggested organizaiton structure for the pr
 
 ## Introduction
 
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
+This project focuses on integrating a tidal package into the ECCO v4r5 ocean state estimate. Our goal was to test ECCO’s capabilities by incorporating tidal forcing in this coarse grid model and then analyze the resulting outputs. To achieve this, we used the ecco_v4_py and pyTMD Python packages for data visualization and comparison and for tidal analysis respectively.
+Throughout the project, team members gained hands-on experience in working with large-scale oceanographic datasets and scientific software tools. Key skills developed include:
+* Working with ECCO v4r5 and modifying model configurations
+* Implementing and testing tidal models
+* Using Python libraries (ecco_v4_py, pyTMD, NumPy, Matplotlib) for scientific data processing and visualization
+* Interpreting geophysical model outputs and conducting investigative analysis
+This project provided a practical opportunity to bridge theoretical knowledge in oceanography with real-world data modeling and coding practices.
 
 ### Collaborators
 
@@ -33,12 +39,11 @@ List all participants on the project. Here is a good space to share your persona
 
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
+| Hinne van der Zant | I want to get more experience on the ECCO codes, and how to run it | Setting up, running and analyzing ECCO output  | Team member |
+| Clement Bértin | Learning ECCO physics and tides | Making great presentations and figures and ice dynamics | Team member |
+| Rebecca Zaja | Learning more about tides and how to run a model | Making data analysis with python and debugging python notebooks | Team member |
+| Hugo Pierre André Alain Plombat | Learn how to use and analyze MitGCM outputs | Tidal theory and cleaning my own codes | Team Member  |
+| Yumi Abe | Learning how to run ECCO model and investigating the impact of tides | Making figures | Team member |
 
 ### The problem
 
