@@ -1,10 +1,3 @@
-# Sample Project
-
-This is an example of how teams can structure their project repositories and format their project README.md file.
-
-When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `ecco-hackweek-2024`).
-
-
 ## Files and folders in your project repository
 
 This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
@@ -28,9 +21,9 @@ This template provides the following suggested organizaiton structure for the pr
 
 (you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
 
-# Project or Team Name
+# Turn On the Tides (TOTs)
 
-## Project Title and Introduction
+## Introduction
 
 Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
 
