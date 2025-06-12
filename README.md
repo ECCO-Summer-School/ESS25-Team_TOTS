@@ -25,7 +25,7 @@ This project provided a practical opportunity to bridge theoretical knowledge in
 In this project, we explore the technical challenge of integrating a tidal forcing package—originally designed for a high-resolution ocean model—into a coarser-resolution model: ECCO v4r5. ECCO currently lacks tidal components, which limits its ability to simulate certain ocean dynamics accurately.
 By adapting and evaluating tidal forcing in ECCO v4r5, we aim to assess whether the inclusion of tides improves or degrades the model's performance. This exploration is important in the broader context of ocean modeling, as more accurate tidal representations can enhance the realism of large-scale simulations used for climate research, sea level studies, and coastal applications. If successful, this work could contribute to improved parameterizations and more reliable ocean state estimates.
 
-## Data and Methods
+## Data and Tools
 
 ### Data
 
@@ -35,24 +35,16 @@ Official ECCO v4r5 data and documentation are available [here](https://ecco-grou
 
 Our results are compared with Oregon State University [TPXO Tide models](https://www.tpxo.net/global) base on satellite altimetry data. In particular, we compare to the 1/6 degree TPXO9.1 global tidal solution
 
-### Existing methods
 
-How would you or others traditionally try to address this problem? Provide any relevant citations to prior work.
-
-### Proposed methods/tools
+### Tools
 
 We port the [tidal computation MITgcm package](https://github.com/MITgcm-contrib/llc_hires/tree/master/llc_90/tides_exps) developed by Olvier Jahn at MIT  to ECCOv4r5 solution. This package requires the [SPICE toolkit](https://naif.jpl.nasa.gov/naif/toolkit.html) to work correctly. This toolkit provides precise computation of the position of the Moon and Sun for the computation of the tidal potential.
-
-
-What new approaches would you like to implement for addressing your specific question(s) or application(s)?
-
 
 
 ### Additional resources or background reading
 
 The python scripts `compute_ampli_phase_maps_from_mitgcm_output.py` and `compute_ampli_phase_maps_from_TPXO.py` require MITgcm outputs and TPXO tidal model to work properly. The folders `maps_mitgcm_1year_of_hourly_ETAN` and `maps_tpxo` contain pre-computed outputs of these two scripts, which can be read using the notebook `Amplitude_Phase_Tidal_maps.ipynb`.
 
-Optional: links to manuscripts or technical documents providing background information, context, or other relevant information.
 
 ## Project goals
 
@@ -63,13 +55,6 @@ We answer this question by fitting tidal constituents on sea level anomaly outpu
 Question 2: At what extent our simulation including tidal computation derives from ECCOv4r5 solution without tides? 
 To answer this question, we ran in parallel a 5years (1992-1997) 30 minutes time-step simulation with and without tides, asking for hourly sea level anomaly output, and monthly diagnostics. We then ran a 1-month simulation with high frequency outputs (dissipation, bottom drag, horizontal and vertical velocities, kinetic energy, viscosity…), with and without tides.
 
-
-
-List the specific project goals or research questions you want to answer. Think about what outcomes or deliverables you'd like to create (e.g. a series of tutorial notebooks demonstrating how to work with a dataset, results of an analysis to answer a science question, an example of applying a new analysis method, or a new python package).
-
-* Goal 1
-* Goal 2
-* ...
 
 ## Project Results
 
@@ -84,6 +69,3 @@ List the specific project goals or research questions you want to answer. Think 
 
 Our final presentation can be found [here](https://docs.google.com/presentation/d/1r52yc2EwnAcNPzzIYxX7dpZDbtoXXrbS/edit?usp=drive_link&ouid=113064660181658291867&rtpof=true&sd=true): 
 
-Use this section to briefly summarize your project results. This could take the form of describing the progress your team made to answering a research question, developing a tool or tutorial, interesting things found in exploring a new dataset, lessons learned for applying a new method, personal accomplishments of each team member, or anything else the team wants to share.
-
-You could include figures or images here, links to notebooks or code elsewhere in the repository (such as in the [notebooks](notebooks/) folder), and information on how others can run your notebooks or code.
