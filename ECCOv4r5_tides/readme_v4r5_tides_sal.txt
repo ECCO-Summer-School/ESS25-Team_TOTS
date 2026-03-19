@@ -15,6 +15,7 @@ cd ECCOV4/release5
 git clone https://github.com/ECCO-Summer-School/ESS25-Team_TOTS.git
 # Move the 'tides' folder into the desired location and rename it
 mv ESS25-Team_TOTS/tides/ ../../pkg/.
+mv ESS25-Team_TOTS/sal/ ../../pkg/.
 # Move only the folder you want to keep into current directory
 mv ESS25-Team_TOTS/ECCOv4r5_tides .
 # Remove the rest of the cloned repo
@@ -40,4 +41,3 @@ cd ..
 
 3. Run
 qsub run_script.csh
-
