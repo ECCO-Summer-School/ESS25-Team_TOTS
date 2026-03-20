@@ -35,6 +35,9 @@ C o Include/exclude Geothermal Heat Flux at the bottom of the ocean
 C o Include/exclude phi_hyd calculation code
 #define INCLUDE_PHIHYD_CALCULATION_CODE
 
+C o Include/exclude computation of finite-volume bottom pressure
+#define INCLUDE_PHIBOT_FV_CODE
+
 C o Include/exclude call to S/R CONVECT
 #define INCLUDE_CONVECT_CALL
 

@@ -85,5 +85,6 @@ if [ "x$NETCDF_DIR" != x ] ; then
 fi
 
 LIBS="$LIBS -L${CRAY_LIBSCI_PREFIX}/lib -lsci_intel"
-LIBS="$LIBS -L../../llc_hires/llc_90/tides_exps/lib -lspice"
+LIBS="$LIBS -L/nobackupp27/dmenemen/forcing/SPICE/lib"
+LIBS="$LIBS -lspice"
 LIBS="$LIBS -lshtns_omp -lfftw3_omp -lfftw3 -lm -liomp5"

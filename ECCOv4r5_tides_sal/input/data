@@ -64,6 +64,8 @@
  writeBinaryPrec=32,
  selectAddFluid=1,
  debugLevel=-1,
+ implicSurfPress = 0.55,
+ implicDiv2DFlow = 0.55,
  /
 
 # Elliptic solver parameters
@@ -72,41 +74,36 @@
 #cg2dTargetResWunit=1.E-12,
  /
 
-# Time stepping parameters
+# Time stepping parameters, deltat is 1800s, so every time step is half an hour
  &PARM03
  nIter0=2,
 #2 lev2 for testing:
 #nTimeSteps=8,
-#3month
-#nTimeSteps=2160,
+#2weeks
+nTimeSteps=672,
 #18month
-#nTimeSteps=13110,
+#nTimeSteps=26220,
 #2yr
-#nTimeSteps=17520,
-#4-yr from 2014 to 2017, inclusive
-#nTimeSteps=35051,
+#nTimeSteps=35040,
+#5yr
+#nTimeSteps=87840,
 #20y:
-#nTimeSteps=175295,
+#nTimeSteps=350590,
 #22y:
-#nTimeSteps=192839,
+#nTimeSteps=385678,
 #24y:
-#nTimeSteps=210359,
+#nTimeSteps=420718,
 #26yr 
-#nTimeSteps=227903,
+#nTimeSteps=455758,
 #28yr
- nTimeSteps=245422,
-#60 years
-#nTimeSteps=525985,
+#nTimeSteps=490798,
 #
  forcing_In_AB=.FALSE.,
  momDissip_In_AB=.FALSE.,
 #when using the cd scheme:
 # epsAB_CD = 0.25,
 # tauCD=172800.0,
- deltaTmom   =3600.,
- deltaTtracer=3600.,
- deltaTfreesurf=3600.,
- deltaTClock =3600.,
+ deltaT   =1800.,
 #when using ab2:
 # abEps = 0.1,
 #when using ab3:
@@ -118,7 +115,7 @@
  chkptFreq   =31536000.0,
 # taveFreq    =31536000.0,
 # dumpFreq    =31536000.0,
- monitorFreq = 43200.0,
+ monitorFreq = 7200.0,
 # monitorFreq = 6307200.0,
  dumpInitAndLast = .TRUE.,
  adjDumpFreq = 31536000.0,

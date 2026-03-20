@@ -1,0 +1,9 @@
+\begindata
+KERNELS_TO_LOAD=(
+'/nobackup/dmenemen/forcing/SPICE/kernels/lsk/naif0012.tls',
+'/nobackup/dmenemen/forcing/SPICE/kernels/fk/planets/earth_assoc_itrf93.tf',
+'/nobackup/dmenemen/forcing/SPICE/kernels/spk/planets/de430.bsp',
+'/nobackup/dmenemen/forcing/SPICE/kernels/pck/pck00010.tpc',
+'/nobackup/dmenemen/forcing/SPICE/kernels/pck/gm_de431.tpc'
+)
+\begintext

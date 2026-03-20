@@ -6,11 +6,11 @@
 
 C---+----1----+----2----+----3----+----4----+----5----+----6----+----7-|--+----|
 CBOP
-C     !ROUTINE: INI_PARMS
-C     !INTERFACE:
+C !ROUTINE: INI_PARMS
+C !INTERFACE:
       SUBROUTINE INI_PARMS( myThid )
 
-C     !DESCRIPTION:
+C !DESCRIPTION:
 C     Routine to load model "parameters" from parameter file "data"
 
 C     !USES:
@@ -30,8 +30,8 @@ C- need GRID.h to save, in rF(1), half retired param Ro_SeaLevel value:
 #include "SHELFICE_OPTIONS.h"
 #endif
 
-C     !INPUT/OUTPUT PARAMETERS:
-C     myThid :: Number of this instance of INI_PARMS
+C !INPUT/OUTPUT PARAMETERS:
+C   myThid :: Number of this instance of INI_PARMS
       INTEGER myThid
 
 C !LOCAL VARIABLES:
