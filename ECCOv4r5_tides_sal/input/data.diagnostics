@@ -46,11 +46,6 @@
    fields(1,10) = 'SIarea  ',
    filename(10) = 'SIarea',
 #---
-#   234 |SIareaPR|  1 |       |SM      M1|m^2/m^2         |SIarea preceeding ridging process
-   frequency(11) = 604800.,
-   fields(1,11) = 'SIareaPR',
-   filename(11) = 'SIareaPR',
-#---
 #   235 |SIareaPT|  1 |       |SM      M1|m^2/m^2         |SIarea preceeding thermodynamic growth/melt
    frequency(12) = 604800.,
    fields(1,12) = 'SIareaPT',
@@ -76,11 +71,6 @@
    fields(1,16) = 'SIhsnoPT',
    filename(16) = 'SIhsnoPT',
 #---
-#   240 |SIhsalt |  1 |       |SM      M1|g/m^2           |SEAICE effective salinity
-   frequency(17) = 604800.,
-   fields(1,17) = 'SIhsalt ',
-   filename(17) = 'SIhsalt',
-#---
 #   264 |SIempmr |  1 |       |SM      U1|kg/m^2/s        |Ocean surface freshwater flux, > 0 increases salt
    frequency(18) = 604800.,
    fields(1,18) = 'SIempmr ',
@@ -90,17 +80,6 @@
    frequency(19) = 604800.,
    fields(1,19) = 'SIatmFW ',
    filename(19) = 'SIatmFW',
-#---
-#   266 |SIsnPrcp|  1 |       |SM      U1|kg/m^2/s        |Snow precip. (+=dw) over Sea-Ice (area weighted)
-   frequency(20) = 604800.,
-   fields(1,20) = 'SIsnPrcp',
-   filename(20) = 'SIsnPrcp',
-#---
-#   267 |SIfwSubl|  1 |       |SM      U1|kg/m^2/s        |Potential sublimation freshwater flux, >0 decr. ice
-   frequency(21) = 604800.,
-   fields(1,21) = 'SIfwSubl',
-   filename(21) = 'SIfwSubl',
-
 #---
 #    27 |SALT    | 15 |       |SMR     MR|g/kg            |Salinity
    frequency(30) = 604800.,
