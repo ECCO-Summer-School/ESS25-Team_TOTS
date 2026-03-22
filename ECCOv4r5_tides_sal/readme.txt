@@ -20,7 +20,7 @@
   source /opt/cray/pe/modules/3.2.11.7/init/bash
   module swap PrgEnv-cray PrgEnv-intel
   module use /u/ojahn/software/modulefiles
-  module load jahn/shtns/3.4.5_intel-2023.2.1_cray-fftw
+  module load jahn/shtns/3.7.5_intel-2023.2.1
   MOD=$WORKDIR/ESS25-Team_TOTS/ECCOv4r5_tides_sal
   ../tools/genmake2 -mpi -mods $MOD/code \
    -of $MOD/code/linux_amd64_ifort+mpi_cray_nas_shtns
