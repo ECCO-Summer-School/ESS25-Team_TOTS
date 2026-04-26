@@ -52,7 +52,7 @@ C bi,bj     :: Tile indices
       flat = 0D0
       rkm = tides_earthRadius/1 _d 3
 
-      CALL cal_GetDate( myIter, myTime, myDate, myThid )
+      CALL cal_GetDate( myIter, myTime+deltaT/2, myDate, myThid )
       yr = myDate(1)/10000
       mon = MOD(myDate(1)/100,100)
       day = MOD(myDate(1),100)
@@ -60,7 +60,7 @@ C bi,bj     :: Tile indices
       M = MOD(myDate(2)/100,100)
       S = MOD(myDate(2),100)
 C     convert UTC to ephemeris time using SPICE
-      WRITE(timestr,'(I4,X,I2.2,X,I2.2,X,I2.2,X,I2.2,X,I2.2)'),
+      WRITE(timestr,'(I4,X,I2.2,X,I2.2,X,I2.2,X,I2.2,X,I2.2)')
      &   yr, mon, day, H, M, S
       CALL STR2ET(timestr, time)
 
